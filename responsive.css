@@ -1,0 +1,65 @@
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    header{
+        padding: .7rem 2rem;
+    }
+    
+    .header-content{
+        display: block;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .hero-area{
+        padding: 1.5rem 3rem;
+    }
+    .icon-area-hero{
+        flex-direction: column;
+    }
+    .icon-area-hero .child-one{
+        margin: 1rem 0;
+        width: 80%;
+    }
+    .basic-info{
+        display: block;
+    }
+    .basic-info .text-info{
+        width: 90%;
+    }
+    .basic-info .image-info{
+        margin-top: 30px;
+    }
+    .header-content img{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .social-media{
+        margin: 1rcap 0;
+    }
+    .image-info img{
+        margin: 1rem -2rem;
+    }
+    .footer-area{
+        padding: 2rem 2rem;
+     }
+     .footer-area .input-image{
+        display: block;
+     }
+     .footer-area .image-footer img{
+        width: 400px;
+        margin: 2rem 0;
+     }
+     .contact-icon {
+        display: flex;
+        flex-direction: column;
+     }
+    .contact-icon .child-one{
+        margin: 1rem 0rem;
+    }
+    .footer-area .input-footer input{
+        width: 100%;
+    }
+    .footer-area .input-footer textarea{
+        width: 425px
+    }
+    
+}
