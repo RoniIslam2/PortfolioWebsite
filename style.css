@@ -7,6 +7,7 @@
     color: aliceblue;
     scroll-behavior: smooth;
     font-family: "poppins", serif;
+    scroll-behavior: smooth;
 }
 html{
     overflow-x: hidden;
@@ -55,7 +56,7 @@ header {
     height: auto;
     width: 100%;
     background-color: var(--bg-color);
-    padding: 3rem 10rem;
+    padding: 3rem 8rem;
     
 }
 .logo i{
@@ -64,6 +65,9 @@ header {
 .logo h3{
     font-size: 30px;
 }
+.logo, footer img{
+    width: 150px;
+}
 /* Navbar Styling */
 .navbar{
     display: flex;
@@ -71,7 +75,7 @@ header {
     align-items: center;
     width: 100%;
     height: 70px;
-    padding: 1rem 10rem;
+    padding: 1rem 8rem;
     background-color: var(--third-bg);
 
 }
@@ -176,7 +180,7 @@ header {
     width: 100%;
     height: auto;
     background-color: var(--third-bg);
-    padding: 3rem 10rem;
+    padding: 3rem 8rem;
 }
 .icon-area-hero{
     flex-direction: row;
@@ -230,7 +234,7 @@ header {
     width: 100%;
     height: auto;
     background-color: var(--bg-color);
-    padding: 2rem 10rem;
+    padding: 2rem 8rem;
 }
 .contact-icon{
     flex-direction: row;
